@@ -4,31 +4,31 @@
 
  *{
      box-sizing: border-box;
-     background-color: darkgray
  }
 
 body{
      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans serif;
-     color: '#777777';
-     background: '#777';
-     width: '960px';
-     font-size: '18px';
+     color: #777;
+     background: #777;
+     width: 960px;
+     font-size: 18px;
  }
 
  header {
-     padding: 20px;
-     margin-bottom: 5px;
+     padding: 22px;
+     margin-bottom: -10px;
      color: #333;
      background-color: #ebebeb;
      margin-left: 50px;
      margin-right: 50px;
      text-align: center;
+     margin-top: 20px;
  }
 
 nav {
-    padding: 20px;
+    padding: 22px;
     margin-bottom: 20px;
-    background-color: #fff;
+    background-color: #ebebeb;
     color: #333;
     margin-left: 50px;
     margin-right: 50px;
@@ -36,57 +36,63 @@ nav {
  }
 
  #left {
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
+    padding: 11px;
+    margin-bottom: 18px;
+    background-color: #ebebeb;
     color: #333;
     height: 100%;
     float: left;
-    width: 45%;
-    margin-left: 50px;
+    width: 56%;
+    margin-left: 51px;
+    position: relative;
+    text-align: center;
  }
 
  #article {
-    padding: 40px;
-    margin-bottom: 20px;
-    background-color: darkgray;
-    color: #fff;
+    padding: 17px;
+    margin-bottom: 5px;
+    background-color: #777;
+    color: #ebebeb;
     height: 60%;
-    float: left;
+    text-align:center;
 }
 
 #h1 {
     padding: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    color: darkgray;
+    margin-bottom: 18px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+    color: #777;
     height: 20%;
-    float: left;
 }   
 
 #p {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #fff;
-    color: darkgray;
+    background-color: #ebebeb;
+    color: #777;
     height: 20%;
-    float: left;
 }
 
 #right {
-    padding: 40px;
-    background-color: #fff;
+    padding: 6px;
+    background-color: #ebebeb;
     color: #333;
-    width: 40%;
+    width: 31%;
     height: 100%;
-    float: right;
-    margin-right: 50px;
+    padding-bottom: 250px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-left: 20px;
 }
 
 footer {
     padding: 20px;
     clear: both;
-    background: #fff;
+    background: #ebebeb;
     margin-left: 50px; 
     margin-right: 50px;
+    margin-bottom: 20px;
+    text-align: center;
   }
